@@ -1,0 +1,109 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 16px;
+}
+
+img,
+iframe {
+    max-width: 100%;
+    height: auto;
+    border: 0;
+}
+
+body {
+    font-family: arial, sans-serif;
+      color: rgba(206,206,206,1.00);
+    background-image: url("MAGIA magic and mayhem and madness imput hell TM overlay.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+header, footer {
+    text-align: center;
+}
+
+footer {
+    color: white;
+}
+
+h1 {
+    font-size: 50px;
+    color: white;
+    text-transform: uppercase;
+}
+
+h2 {
+    font-size: 30px;
+	   color: white;
+    font-family: 'Lato', sans-serif;
+    text-transform: uppercase;
+}
+
+h1, h2, li {
+    padding-bottom: 0.4em;
+}
+
+p {
+	
+padding-bottom: 1em;
+}	
+.item {
+    background-color: rgba(29,29,29,0.96);
+    padding: 1%;
+    margin: 1%;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    border-radius: 10px;
+}
+
+main {
+    max-width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.item li {
+    margin-left: 25px;
+}
+
+blockquote {
+    text-transform: uppercase;
+    font-style: italic;
+}
+
+nav {
+    text-align: center;
+}
+
+nav li {
+    display: inline-block;
+}
+
+nav a {
+    background: white;
+    color: black;
+    padding: 5px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+nav a:hover {
+    background: orange;
+}
+
+.article-container {
+    display: flex;
+    align-items: center; /* Center items vertically */
+    margin: 20px;
+}
+
+.article-image {
+    max-width: 250px; /* Adjust the size as needed */
+    margin-right: 20px; /* Space between image and text */
+}
+
+.article-content {
+    max-width: 600px; /* Adjust the width as needed */
+}
